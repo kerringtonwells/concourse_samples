@@ -9,6 +9,7 @@ inputs:
 run: 
   path: sh
   args:
+  - exc
   - |
     ls -ltrha
     echo ""
