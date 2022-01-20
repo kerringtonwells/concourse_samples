@@ -10,6 +10,6 @@ run:
   args:
   - -exc
   - |
-    chmod 777 sample_bash_code_old/test_concourse.sh
-    ./sample_bash_code_old/test_concourse.sh
+    chmod 777 sample_bash_code_old/ls_container.sh
+    ./sample_bash_code_old/ls_container.sh
     uname -r
