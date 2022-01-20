@@ -1,0 +1,13 @@
+---
+
+platform: linux
+
+inputs:
+- name: concourse_samples
+
+run: 
+  path: sh
+  args:
+  - -exc
+  - |
+    exit 1
