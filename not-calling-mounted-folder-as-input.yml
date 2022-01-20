@@ -1,0 +1,12 @@
+---
+
+platform: linux
+
+
+run: 
+  path: sh
+  args:
+  - -exc
+  - |
+    ls -ltrha
+    echo "********* There should not be a folder here since we didn't call it as an input"

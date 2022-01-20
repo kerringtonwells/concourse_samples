@@ -1,0 +1,14 @@
+---
+
+platform: linux
+
+inputs:
+- name: MOUNTED_FOLDER
+
+run: 
+  path: sh
+  args:
+  - -exc
+  - |
+    ls -ltrha
+    echo "********* Should be a folder called mounted_folder which should be visible because we called the input"
