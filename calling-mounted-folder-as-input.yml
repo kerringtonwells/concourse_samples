@@ -13,4 +13,4 @@ run:
     ls -ltrha
     echo ""
     echo "Should be a folder called mounted_folder which should be visible because we called the input"
-    ls -ltrha mounted_empty-dir/*
+    ls -ltrha mounted-empty-dir/*
