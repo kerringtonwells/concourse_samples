@@ -3,13 +3,13 @@
 platform: linux
 
 inputs:
-- name: sample_bash_code_old
+- name: concourse_samples
 
 run: 
   path: sh
   args:
   - -exc
   - |
-    chmod 777 sample_bash_code_old/ls_container.sh
-    ./sample_bash_code_old/ls_container.sh
+    chmod 777 concourse_samples/ls_container.sh
+    ./concourse_samples/ls_container.sh
     uname -r
