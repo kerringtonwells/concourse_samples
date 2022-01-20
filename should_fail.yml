@@ -10,4 +10,5 @@ run:
   args:
   - -exc
   - |
+    echo " changed something"
     exit 1
