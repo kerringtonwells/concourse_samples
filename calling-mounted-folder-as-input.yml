@@ -2,7 +2,7 @@
 
 platform: linux
 
-outputs:
+inputs:
 - name: MOUNTED_FOLDER
 
 run: 
@@ -11,5 +11,4 @@ run:
   - -exc
   - |
     ls -ltrha
-    touch MOUNTED_FOLDER/TESTFILE
-    echo "********* Created a testfile in the MOUNTED_FOLDER directory"
+    echo "********* Should be a folder called mounted_folder which should be visible because we called the input"
