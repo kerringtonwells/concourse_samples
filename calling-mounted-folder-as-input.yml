@@ -3,7 +3,7 @@
 platform: linux
 
 inputs:
-- name: mounted-empty-dir
+- name: MOUNTED_FOLDER
 
 
 run: 
@@ -14,4 +14,4 @@ run:
     ls -ltrha
     echo ""
     echo "Should be a folder called mounted_folder which should be visible because we called the input"
-    ls -ltrha mounted-empty-dir/*
+    ls -ltrha MOUNTED_FOLDER/*
