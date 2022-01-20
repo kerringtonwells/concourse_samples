@@ -4,6 +4,7 @@ platform: linux
 
 inputs:
 - name: mounted-empty-dir
+- name: dir-created-by-input-but-wont-be-passed-as-output-to-later-tasks
 
 run: 
   path: sh
