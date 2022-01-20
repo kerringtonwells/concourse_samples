@@ -12,4 +12,6 @@ run:
   - |
     ls -ltrha
     touch MOUNTED_FOLDER/TESTFILE
-    echo "********* Created a testfile in the MOUNTED_FOLDER directory"
+    echo ""
+    echo " Created a testfile in the MOUNTED_FOLDER directory "
+    ls -lhtra MOUNTED_FOLDER/*
