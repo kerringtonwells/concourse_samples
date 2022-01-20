@@ -11,7 +11,6 @@ run:
   - -exc
   - |
     ls -ltrha
-    mkdir MOUNTED_FOLDER
     touch MOUNTED_FOLDER/TESTFILE
     echo ""
     echo " Created a testfile in the MOUNTED_FOLDER directory "
