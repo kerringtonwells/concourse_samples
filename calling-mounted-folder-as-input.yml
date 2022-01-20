@@ -1,0 +1,15 @@
+---
+
+platform: linux
+
+outputs:
+- name: MOUNTED_FOLDER
+
+run: 
+  path: sh
+  args:
+  - -exc
+  - |
+    ls -ltrha
+    touch MOUNTED_FOLDER/TESTFILE
+    echo "********* Created a testfile in the MOUNTED_FOLDER directory"
