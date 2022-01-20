@@ -3,7 +3,7 @@
 platform: linux
 
 outputs:
-- name: concourse
+- name: MOUNTED_FOLDER
 
 run: 
   path: sh
@@ -11,8 +11,8 @@ run:
   - -exc
   - |
     ls -ltrha
-    mkdir concourse/MOUNTED_FOLDER
-    touch concourse/MOUNTED_FOLDER/TESTFILE
+    mkdir MOUNTED_FOLDER
+    touch MOUNTED_FOLDER/TESTFILE
     echo ""
     echo " Created a testfile in the MOUNTED_FOLDER directory "
-    ls -lhtra concourse/MOUNTED_FOLDER/*
+    ls -lhtra MOUNTED_FOLDER/*
