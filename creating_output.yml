@@ -10,7 +10,4 @@ run:
   args:
   - -exc
   - |
-    chmod 777 concourse/test_concourse.sh
-    ./sample_bash_code_old/test_concourse.sh
-    which bosh
-    uname -r
+    ls -ltrha
