@@ -3,8 +3,8 @@
 platform: linux
 
 inputs:
-- name: mounted-empty-dir
-- name: dir-created-by-input-but-wont-be-passed-as-output-to-later-tasks
+- name: MOUNTED_FOLDER
+
 
 run: 
   path: sh
@@ -14,4 +14,4 @@ run:
     ls -ltrha
     echo ""
     echo "Should be a folder called mounted_folder which should be visible because we called the input"
-    ls -ltrha mounted-empty-dir/*
+    ls -ltrha MOUNTED_FOLDER/*
